@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "dev": "NODE_ENV=development webpack serve --mode development --config core/webpack.js",
-    "build-package": "NODE_ENV=production webpack --mode production --config core/webpack-build-package.js"
+    "build-package": "NODE_ENV=production webpack --mode production --config core/webpack-build-package.js",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/pastvolodymyr/react-payment-card-hook/issues"
   },
-  "homepage": "https://github.com/pastvolodymyr/react-payment-card-hook#readme",
+  "homepage": "https://pastvolodymyr.github.io/react-payment-card-hook/",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
@@ -27,6 +28,7 @@
     "@babel/preset-react": "^7.14.5",
     "babel-loader": "^8.2.2",
     "css-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^5.3.2",
     "style-loader": "^3.2.1",
     "webpack": "^5.51.1",
