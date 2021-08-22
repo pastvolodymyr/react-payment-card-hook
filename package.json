@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "NODE_ENV=development webpack serve --mode development --config core/webpack.js",
     "build-package": "NODE_ENV=production webpack --mode production --config core/webpack-build-package.js",
+    "predeploy": "NODE_ENV=production webpack --mode production --config core/webpack.js",
     "deploy": "gh-pages -d build"
   },
   "repository": {
