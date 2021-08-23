@@ -1,5 +1,5 @@
 import React from "react";
-import {usePaymentCard} from "./usePaymentCard";
+import {usePaymentCard} from "react-payment-card-hook";
 
 export const App = () => {
     const {onFocus, onChange, onBlur, fieldsData} = usePaymentCard()
@@ -9,6 +9,7 @@ export const App = () => {
             <h1>Example react-payment-card</h1>
             <label htmlFor="cardNumber">
                 <p>Card number</p>
+                <p>Card type: {fieldsData.cardType}</p>
                 <input
                     name='cardNumber'
                     type="text"

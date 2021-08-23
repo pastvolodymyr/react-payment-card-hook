@@ -1,11 +1,11 @@
 {
   "name": "react-payment-card-hook",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A React Hook to help with payment card input fields.",
   "main": "dist/index.js",
   "scripts": {
     "dev": "NODE_ENV=development webpack serve --mode development --config core/webpack.js",
-    "build-package": "NODE_ENV=production webpack --mode production --config core/webpack-build-package.js",
+    "build-package": "rm -rf dist && NODE_ENV=production babel src/usePaymentCard --out-dir dist --copy-files",
     "predeploy": "NODE_ENV=production webpack --mode production --config core/webpack.js",
     "deploy": "gh-pages -d build"
   },
@@ -24,6 +24,7 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@babel/cli": "^7.14.8",
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
     "@babel/preset-react": "^7.14.5",
