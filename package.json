@@ -1,6 +1,6 @@
 {
   "name": "react-payment-card-hook",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A React Hook to help with payment card input fields.",
   "main": "dist/index.js",
   "scripts": {
@@ -31,9 +31,9 @@
     "url": "https://github.com/pastvolodymyr/react-payment-card-hook/issues"
   },
   "homepage": "https://pastvolodymyr.github.io/react-payment-card-hook/",
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+  "peerDependencies": {
+    "react": "^16.8.6 || ^17.0.2",
+    "react-dom": "^16.8.6 || ^17.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.8",
@@ -47,6 +47,8 @@
     "style-loader": "^3.2.1",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.0.0"
+    "webpack-dev-server": "^4.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }

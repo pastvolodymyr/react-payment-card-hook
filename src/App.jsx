@@ -1,5 +1,5 @@
 import React from "react";
-import {usePaymentCard} from "react-payment-card-hook";
+import {usePaymentCard} from "./usePaymentCard";
 
 export const App = () => {
     const {onFocus, onChange, onBlur, fieldsData} = usePaymentCard()
