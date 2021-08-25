@@ -38,11 +38,11 @@ export const usePaymentCard = (customConfig) => {
 
     const [fieldsData, setFieldsData] = useState({
         cardNumberValue: cardNumberInitialValue,
-        cardNumberHideValue: '',
+        cardNumberHideValue: cardNumberInitialValue ? characterSeparator(cardNumberHideChar.repeat(12)+cardNumberInitialValue.substr(-4), 4, ' ') : '',
         cardType: null,
         expireValue: expireInitialValue,
         secureCodeValue: secureCodeInitialValue,
-        secureCodeHideValue: '',
+        secureCodeHideValue: secureCodeInitialValue ? secureCodeHideChar.repeat(3) : '',
     })
 
     const onChange = (e) => {
