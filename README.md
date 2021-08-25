@@ -28,6 +28,7 @@ export const App = () => {
             <h1>Example react-payment-card</h1>
             <label htmlFor="cardNumber">
                 <p>Card number</p>
+                <p>Card type: {fieldsData.cardType}</p>
                 <input
                     name='cardNumber'
                     type="text"

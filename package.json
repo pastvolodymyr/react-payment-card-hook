@@ -1,6 +1,6 @@
 {
   "name": "react-payment-card-hook",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React Hook to help with payment card input fields.",
   "main": "dist/index.js",
   "scripts": {
@@ -14,6 +14,18 @@
     "url": "git+https://github.com/pastvolodymyr/react-payment-card-hook.git"
   },
   "author": "Volodymyr Pastukh",
+  "keywords": [
+    "react",
+    "react-hook",
+    "hook",
+    "payment",
+    "card",
+    "payment-card",
+    "input",
+    "mask",
+    "input-mask",
+    "secure-code"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pastvolodymyr/react-payment-card-hook/issues"
