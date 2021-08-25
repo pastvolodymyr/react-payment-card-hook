@@ -1,4 +1,5 @@
 # react-payment-card-hook  💳
+[![NPM version](http://img.shields.io/npm/v/react-payment-card-hook.svg?style=flat-square)](https://www.npmjs.org/package/react-payment-card-hook) [![NPM license](http://img.shields.io/npm/l/react-payment-card-hook.svg?style=flat-square)](https://www.npmjs.org/package/react-payment-card-hook)
 
 ## Demo
 https://pastvolodymyr.github.io/react-payment-card-hook/
