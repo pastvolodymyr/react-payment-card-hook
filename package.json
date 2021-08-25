@@ -1,6 +1,6 @@
 {
   "name": "react-payment-card-hook",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A React Hook to help with payment card input fields.",
   "main": "dist/index.js",
   "scripts": {
